@@ -14,9 +14,9 @@
   "author": "Sifundo Mhlungu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leoroese/template-cli/issues"
+    "url": "https://github.com/SfundoMhlungu/-dot.product-createlib/issues"
   },
-  "homepage": "https://github.com/leoroese/template-cli#readme",
+  "homepage": "https://github.com/SfundoMhlungu/-dot.product-createlib#readme",
   "dependencies": {
     "inquirer": "^9.1.4"
   },
