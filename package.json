@@ -1,0 +1,26 @@
+{
+  "name": "@dot.product/createlib",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+      "createlib": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sifundo Mhlungu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoroese/template-cli/issues"
+  },
+  "homepage": "https://github.com/leoroese/template-cli#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "package_name",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "files": [
+        "lib/"
+    ],
+    "types": "lib/esm",
+    "scripts": {
+        "build": "tsc -p . && tsc -p tsconfig-cjs.json",
+        "pub": "npm run build && npm publish"
+    },
+    "keywords": [
+ 
+    ],
+    "author": "",
+    "license": "MIT",
+    "homepage": ""
+}

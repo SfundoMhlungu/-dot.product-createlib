@@ -1,0 +1,28 @@
+{
+    "name": "package_name",
+    "version": "1.0.0",
+    "description": "",
+   
+    "main": "./lib/index.js",
+    "files": [
+        "lib/"
+    ],
+    "types": "lib/",
+    "scripts": {
+        "build": "tsc -p .",
+        "pub": "npm run build && npm publish"
+    },
+    "keywords": [
+    
+        
+    ],
+    "author": "",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.24"
+    }
+}
